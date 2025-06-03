@@ -1,78 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jane Doe Interior Design</title>
-    <link rel="stylesheet" href="styles.css" />
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Jane Doe Interior Design</title>
+<!-- Google Fonts for better typography -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Jane Doe Interior Design</h1>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
 
-    <section id="about" class="section">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>Hello! I'm Jane Doe, a passionate interior designer with over 10 years of experience creating beautiful, functional spaces. I love transforming ideas into reality and making every project unique.</p>
-        </div>
-    </section>
+<!-- Hero Section -->
+<section class="hero">
+  <div class="hero-content container">
+    <h1>Transforming Spaces, Creating Dreams</h1>
+    <p>Interior Design that Reflects Your Style</p>
+    <a href="#contact" class="btn">Get in Touch</a>
+  </div>
+</section>
 
-    <section id="portfolio" class="section">
-        <div class="container">
-            <h2>My Work</h2>
-            <div class="grid">
-                <div class="grid-item">
-                    <img src="images/project1.jpg" alt="Living Room Design" />
-                    <h3>Modern Living Room</h3>
-                </div>
-                <div class="grid-item">
-                    <img src="images/project2.jpg" alt="Kitchen Renovation" />
-                    <h3>Contemporary Kitchen</h3>
-                </div>
-                <div class="grid-item">
-                    <img src="images/project3.jpg" alt="Bedroom Interior" />
-                    <h3>Cozy Bedroom</h3>
-                </div>
-            </div>
-        </div>
-    </section>
+<!-- Header -->
+<header>
+  <div class="container">
+    <h1>Jane Doe Interior Design</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
-    <section id="services" class="section">
-        <div class="container">
-            <h2>Services</h2>
-            <ul>
-                <li>Interior Design Consultation</li>
-                <li>Space Planning</li>
-                <li>Furniture Selection</li>
-                <li>Project Management</li>
-            </ul>
-        </div>
-    </section>
+<!-- About Section -->
+<section id="about" class="section">
+  <div class="container">
+    <h2>About Me</h2>
+    <p>Hello! I'm Jane Doe, a passionate interior designer with over 10 years of experience creating beautiful, functional spaces. I love transforming ideas into reality and making every project unique.</p>
+  </div>
+</section>
 
-    <section id="contact" class="section">
-        <div class="container">
-            <h2>Contact Me</h2>
-            <p>If you're interested in working together, please reach out!</p>
-            <p>Email: jane.doe@example.com</p>
-            <p>Phone: (123) 456-7890</p>
-        </div>
-    </section>
+<!-- Portfolio Section -->
+<section id="portfolio" class="section">
+  <div class="container">
+    <h2>My Work</h2>
+    <div class="grid">
+      <div class="grid-item">
+        <img src="images/project1.jpg" alt="Living Room Design" />
+        <h3>Modern Living Room</h3>
+      </div>
+      <div class="grid-item">
+        <img src="images/project2.jpg" alt="Kitchen Renovation" />
+        <h3>Contemporary Kitchen</h3>
+      </div>
+      <div class="grid-item">
+        <img src="images/project3.jpg" alt="Bedroom Interior" />
+        <h3>Cozy Bedroom</h3>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Jane Doe Interior Design</p>
-        </div>
-    </footer>
+<!-- Services Section -->
+<section id="services" class="section">
+  <div class="container">
+    <h2>Services</h2>
+    <ul>
+      <li>Interior Design Consultation</li>
+      <li>Space Planning</li>
+      <li>Furniture Selection</li>
+      <li>Project Management</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Testimonials Section -->
+<section id="testimonials" class="section">
+  <div class="container">
+    <h2>What Clients Say</h2>
+    <div class="testimonials">
+      <div class="testimonial">
+        <p>"Jane transformed our living space into a beautiful, functional area. Highly recommended!"</p>
+        <h4>- Sarah M.</h4>
+      </div>
+      <div class="testimonial">
+        <p>"Professional, creative, and attentive to detail. Love my new kitchen."</p>
+        <h4>- Mark T.</h4>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Form Section -->
+<section id="contact" class="section">
+  <div class="container">
+    <h2>Contact Me</h2>
+    <form class="contact-form" action="#" method="post">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+    <p>Or reach me directly: <br>Email: jane.doe@example.com | Phone: (123) 456-7890</p>
+  </div>
+</section>
+
+<!-- Footer with social icons -->
+<footer>
+  <div class="container footer-container">
+    <p>&copy; 2024 Jane Doe Interior Design</p>
+    <div class="social-icons">
+      <a href="#"><img src="images/facebook.png" alt="Facebook" /></a>
+      <a href="#"><img src="images/instagram.png" alt="Instagram" /></a>
+      <a href="#"><img src="images/linkedin.png" alt="LinkedIn" /></a>
+    </div>
+  </div>
+</footer>
+
 </body>
 </html>
