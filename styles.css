@@ -223,14 +223,14 @@ footer {
 }
 
 .social-icons img {
-  width: 30px;
-  height: 30px;
-  filter: brightness(0) invert(1);
+  width: 60px;
+  height: 60px;
+  filter: brightness(1) invert(0);
   transition: filter 0.3s;
 }
 
 .social-icons a:hover img {
-  filter: brightness(0) invert(0.5);
+  filter: brightness(1) invert(0);
 }
 
 /* Responsive adjustments */
